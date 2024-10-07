@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jaeyoung/static/css/main.f855e6bc.css",
+    "main.js": "/jaeyoung/static/js/main.f976c750.js",
+    "static/js/453.b7869006.chunk.js": "/jaeyoung/static/js/453.b7869006.chunk.js",
+    "static/media/logo.svg": "/jaeyoung/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jaeyoung/index.html",
+    "main.f855e6bc.css.map": "/jaeyoung/static/css/main.f855e6bc.css.map",
+    "main.f976c750.js.map": "/jaeyoung/static/js/main.f976c750.js.map",
+    "453.b7869006.chunk.js.map": "/jaeyoung/static/js/453.b7869006.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f976c750.js"
+  ]
+}
