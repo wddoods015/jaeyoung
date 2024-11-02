@@ -1,0 +1,83 @@
+/*-----stack------------------------------------*/
+
+.skill {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-title {
+    padding: 10px;
+    width: 80%;
+    border-top:solid 1px #333;
+    text-align: left;
+    font-size: 28pt;
+}
+
+.skill-ul {
+ margin-top: 60px;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ width: auto;
+ flex-direction: column;
+ gap: 20px;
+}
+
+@media (max-width: 600px) {
+    ul {
+        grid-template-columns: repeat(3, 1fr); /* 1열 */
+    }
+}
+
+.skill-li {
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 2px #ccc;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.skill-container {
+    border-radius: 5px;
+    width: 80%;
+    height: 18px;
+    background-color: #faf8f8;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.skill-gage {
+    border-radius: 5px 15px 15px 5px;
+    height: 18px;
+    background: linear-gradient(to right, rgb(253, 242, 224), #ffc68e);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    color: #333;
+    font-size: 10pt;
+}
+
+.my-skill {
+    font-size: large;
+}
+
+
+
+.skill-div {
+    border: solid 1px #333;
+    width: 60%;
+}
+
+.skill-logo {
+    width: 40px;
+}

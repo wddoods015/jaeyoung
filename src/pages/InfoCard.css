@@ -1,0 +1,92 @@
+.info-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .profile-section {
+        margin-top: 10px; 
+        padding: 30px;
+        width: 800px;
+        display: flex;
+        gap: 100px;
+        box-shadow: 10px 10px 10px 5px #ccc;
+     }
+     
+     .profile-img {
+         margin-top: 10px;
+         width: 200px;
+         height: 200px;
+         border-radius: 100%;
+     }
+    
+     .contact-ul {
+        padding: 0;
+        display: flex;
+        gap: 30px;
+    }
+    
+    .contact-li {
+        list-style: none;
+        transition: all 0.1s ease; /* 부드러운 전환 효과 */
+    }
+    
+    .contact-li:hover {
+        transform: translateY(-10px); /* 위로 이동 */
+    }
+    
+    
+    /* 마우스가 떼어졌을 때 바운스 효과 */
+    .contact-li:active {
+        animation: bounce 0.1s forwards; /* bounce 애니메이션 적용 */
+    }
+    
+    /* bounce 애니메이션 */
+    @keyframes bounce {
+        0% {
+            transform: translateY(0); /* 원래 위치 */
+        }
+        50% {
+            transform: translateY(-10px); /* 위로 튕김 */
+        }
+        100% {
+            transform: translateY(0); /* 원래 위치로 돌아옴 */
+        }
+    }
+    /* 바운스 효과를 버튼에 적용 */
+    .contact-li:focus {
+        animation: bounce 0.3s forwards; /* 포커스 상태에서도 바운스 애니메이션 적용 */
+    }
+    
+    .contact-li a {
+        text-decoration: none;
+    }
+    
+    .github-logo {
+        width: 40px;
+        height: auto;
+    }
+    
+    .velog-logo {
+        width: 40px;
+        height: auto;
+    }
+    
+    .linkedin-logo {
+        width: 40px;
+        height: auto;
+    }
+    
+    .resume-btn {
+        background-color: white;
+        padding: 2px;
+        width: 65px;
+        height: 40px;
+        border-radius: 5px;
+        border: solid 3px #333;
+        font-weight: bold;
+        animation: bounce-top 0.9s both;
+                animation: bounce-top 0.9s both;
+    }

@@ -1,0 +1,148 @@
+.resume {
+    padding: 30px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume-section-1 {
+    margin-top: 10px; 
+    padding: 30px;
+    width: 800px;
+    display: flex;
+    gap: 200px;
+   
+}
+
+.resume-section-2 {
+    margin-top: 10px; 
+    padding: 30px;
+    width: 800px;
+    display: flex;
+    gap: 100px;
+    border-bottom: solid 1px #ccc;
+}
+
+.my-info-section {
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section1 {
+    width: 300px;
+    padding: 10px; 
+    border-right: solid 1px #333;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section2 {
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume-info-tag {
+    color: #333;
+}
+
+.resume-ct-tag {
+   margin-right: 10px; 
+   width: 100px;
+}
+
+.resume-ct-item {
+    font-size: 10.5pt;
+    color: #333;
+    border-bottom:solid 1px #ccc;
+}
+
+
+.intro-section {
+    height: auto;
+    border-bottom: solid 1px #333;
+}
+
+/* timeline */
+.timeline {
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.timeline-event {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -40px;
+    font-weight: bold;
+}
+
+.timeline-content {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section {
+    width: 100%;
+}
+
+.skill-div {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: auto;
+    border: none;
+    background-color: #fde6e6;
+}
+ 
+.project-section {
+    width: 100%;
+    height: auto;
+}
+
+.project-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: solid 1px #333;
+}
+
+.period-project {
+    width: 20%;
+    
+}
+
+.resume-ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-subtitle {
+    font-weight: bold;
+    height: 2px;
+}
+
+.skill-bdage {
+    background-color: #ccc;
+    padding: 2px
+}
+
+.skills-div {
+    display: flex;
+    gap: 10px;
+}

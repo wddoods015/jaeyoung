@@ -1,0 +1,91 @@
+/*-----project------------------------------------*/
+
+.project {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    padding: 10px;
+    width: 80%;
+    border-top:solid 1px #333;
+    text-align: left;
+    font-size: 28pt;
+}
+
+/*-project web img-*/
+
+.project-img {
+    width: 800px;
+    height: auto;
+    border: solid 1px #ccc;
+    margin-bottom: 20px;
+}
+
+.pj-div {
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.pj-info-div {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.pj-info-title {
+    width: 160px;
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.pj-info-content {
+    width: auto;
+    height: 40px;
+    font-size: 1.1em;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.pj-badge { 
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #20C997;
+    width: auto;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.drop-summary {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90px;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.pj-description {
+    margin-top: 40px;
+    padding: 20px;
+    width: 800px;
+    
+}
+
