@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/jaeyoung/static/css/main.1b04a788.css",
-    "main.js": "/jaeyoung/static/js/main.e7812d80.js",
+    "main.css": "/jaeyoung/static/css/main.c6157800.css",
+    "main.js": "/jaeyoung/static/js/main.a7c1776f.js",
     "static/js/453.b7869006.chunk.js": "/jaeyoung/static/js/453.b7869006.chunk.js",
+    "static/media/slick.svg": "/jaeyoung/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/jaeyoung/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/jaeyoung/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/jaeyoung/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/jaeyoung/index.html",
-    "main.1b04a788.css.map": "/jaeyoung/static/css/main.1b04a788.css.map",
-    "main.e7812d80.js.map": "/jaeyoung/static/js/main.e7812d80.js.map",
+    "main.c6157800.css.map": "/jaeyoung/static/css/main.c6157800.css.map",
+    "main.a7c1776f.js.map": "/jaeyoung/static/js/main.a7c1776f.js.map",
     "453.b7869006.chunk.js.map": "/jaeyoung/static/js/453.b7869006.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b04a788.css",
-    "static/js/main.e7812d80.js"
+    "static/css/main.c6157800.css",
+    "static/js/main.a7c1776f.js"
   ]
 }
