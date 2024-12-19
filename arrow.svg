@@ -4,7 +4,7 @@
   width="16"
   height="16"
   viewBox="0 0 16 16"
-  className="fill-black dark:fill-white"
+  className="text-black dark:text-white"
 >
-  <path d="M7 1h2v11h2l-3 3-3-3h2z"></path>
+  <path d="M7 1h2v11h2l-3 3-3-3h2z" fill="currentColor"></path>
 </svg>
